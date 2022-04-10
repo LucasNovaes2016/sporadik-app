@@ -1,10 +1,8 @@
 import React from 'react';
+import './index.css';
 
 function App() {
-  const a = {
-    a: '1',
-  };
-  return <h1>Hello World</h1>;
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
 }
 
 export default App;
